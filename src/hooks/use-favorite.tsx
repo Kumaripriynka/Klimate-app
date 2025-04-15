@@ -41,7 +41,7 @@ export function useFavorite(){
     setFavorites(newFavorites);
     return newFavorites;
  },
- onSuccess: (newHistory) => {
+ onSuccess: () => {
  queryClient.invalidateQueries({
     queryKey:["favorites"],
  });

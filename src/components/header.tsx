@@ -1,4 +1,3 @@
-import React from 'react';
 import { useTheme } from '@/context/theme-provider';
 import { Link } from 'react-router-dom';
 import { Sun, Moon } from 'lucide-react';

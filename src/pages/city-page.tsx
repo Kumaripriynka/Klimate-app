@@ -5,9 +5,8 @@ import WeatherSkeleton from "@/components/loading-skeleton";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import WeatherDetails from "@/components/weather-details";
 import WeatherForecast from "@/components/weather-forecast";
-import { useForecastQuery, useReverseGeoCodeQuery, useWeatherQuery } from "@/hooks/use-weather";
+import { useForecastQuery, useWeatherQuery } from "@/hooks/use-weather";
 import { AlertTriangle } from "lucide-react";
-import React from "react";
 import { useParams, useSearchParams } from "react-router-dom";
 
 const CityPage = () => {
